@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_default"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="SERIES"
+            android:textColor="@color/green"
+            android:layout_marginLeft="6dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="12dp"
+
+
+            android:background="@drawable/rectangulo_green" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview_peliculas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"></GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="9dp"
+            android:layout_marginLeft="95dp"
+            android:src="@drawable/rectangulo_green" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="MOVIES"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview_series"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"></GridView>
+
+</LinearLayout>

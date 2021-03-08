@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_default"
+    tools:context=".Inicio_Activity">
+
+    <ImageView
+        android:id="@+id/welcome_image"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:scaleType="fitXY"
+        android:scaleX="1.8"
+        android:src="@drawable/popcorn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/letter_color"
+        android:textSize="20sp"
+        android:text="@string/welcome_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/welcome_button"
+        android:layout_width="237dp"
+        android:layout_height="55dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:background="@drawable/esquinas"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome_button_text"
+
+        />
+
+
+</LinearLayout>
