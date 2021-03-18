@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PopCornFactor">
+        <activity android:name=".comprarBoleto"></activity>
+        <activity android:name=".SeatSelection" />
         <activity android:name=".Inicio_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,9 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetallePelicula" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

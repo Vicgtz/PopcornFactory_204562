@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_default"
+    tools:context=".SeatSelection">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="MOVIES"
+            android:textColor="@color/green"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/titleSeats"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="12dp"
+
+
+            android:background="@drawable/rectangulo_green" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/row1"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="1"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="2"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"
+             />
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="3"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+     </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/row2"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="6"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="7"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="9"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="10"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/row3"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="11"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="12"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="13"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="14"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="15"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/row4"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="16"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="17"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="18"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_normal"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="19"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="20"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="3dp"
+            android:textColor="@color/background_default"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </RadioGroup>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/grisclaro"
+    android:layout_marginTop="40dp"
+    android:layout_marginHorizontal="50dp"
+    android:text="Screen"
+    android:textSize="23sp"
+    android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/radio_normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="available"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/letra"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/radio_disabled"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No \n Available"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/letra"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/radio_selected"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You \n selected"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/letra"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/esquinas"
+        android:textColor="@color/background_default"
+        android:text="Confirm"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="70dp"
+        android:id="@+id/confirm"/>
+
+
+</LinearLayout>
